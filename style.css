@@ -1,0 +1,157 @@
+/*Login*/
+.judul-login {
+  font-size: 35px;
+  font-weight: 800;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.isi-form-login {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.isi-login {
+  margin: 45px;
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid black;
+  height: 400px;
+}
+
+.tombol-login {
+  margin-bottom: 30px;
+}
+/*Akhir Login*/
+
+/*Register*/
+.judul-register {
+  font-size: 35px;
+  font-weight: 800;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.isi-form-register {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.isi-register {
+  margin: 45px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid black;
+}
+
+.tombol-register {
+  margin-bottom: 30px;
+}
+
+/*Profile*/
+.profile {
+  font-family: "Poppins", sans-serif;
+}
+
+.bagian-profile {
+  border-left: 1px solid rgb(224, 224, 224);
+  border-top: 1px solid rgb(224, 224, 224);
+  border-bottom: 1px solid rgb(224, 224, 224);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.bagian-profile-form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.bagian-profile img {
+  border-radius: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+.bagian-profile a {
+  color: rgba(0, 0, 0, 0.815);
+  line-height: 13px;
+}
+
+.input-group-text {
+  font-size: 13px;
+}
+
+/*Profil publik*/
+.jmbtrn-profil {
+  background: rgba(0, 0, 0, 0.89);
+  height: 120px;
+}
+/*Akhir profil publik*/
+
+/*Modal pada Akun.html*/
+.form-akun {
+  width: 70%;
+}
+
+.modal-akun {
+  font-family: "Poppins", sans-serif;
+  margin-top: 150px;
+}
+
+/*Akhir modal pada Akun.html*/
+
+/*Metode pembayaran*/
+.metode-pembayaran {
+  font-family: "Poppins", sans-serif;
+}
+
+.metode-pembayaran-bawah {
+  border: 4px dashed rgb(224, 224, 224);
+}
+
+.metode-pembayaran-bawah p {
+  margin: 50px 20px 50px 20px;
+}
+
+/*Akhir Profile*/
+
+/*Home / User*/
+.jmbtrn-home-user {
+  font-family: "Poppins", sans-serif;
+}
+
+.jmbtrn-home-user h1 {
+  font-size: 30px;
+}
+
+.crd-program h5 {
+  font-size: 17px;
+}
+
+.item:hover {
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: all 0.3s ease;
+}
+@media (max-width: 574px) {
+  .bagian-profile-form {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .bagian-profile {
+    border: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .bagian-profile {
+    border: none;
+  }
+  .metode-pembayaran-bawah p {
+    margin: 35px 20px 50px 20px;
+  }
+}
